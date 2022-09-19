@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+.navbar    
+    {
+       background-color: white;
+        border: 2px solid white;
+       border-radius: 30px;
+    }
+    .navbar ul{
+        overflow: auto;
+        margin: 0px;
+       
+    }
+    .navbar li{
+        float:left;
+       list-style: none;
+       margin: 10px 10px;
+    }
+    .navbar li a{
+        /* padding: 3px 3px; */
+       text-decoration: none;
+       color: black;
+    }
+    .navg :hover{
+        border: 1px solid black;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+        padding: 4px 3px;
+    }
+    .search{
+        /* margin: 10px 10px; */
+        float:right;
+        padding: 3px 3px;
+       text-decoration: none;
+       color: rgb(8, 6, 6);
+    }
+    .navbar  input{
+        
+        border-radius:30px;
+        padding:6px;
+        
+    }
+    .brand
+    {
+        font-size: 20px;
+    }
+    img{
+       margin: 1% 4% 4% 4%;
+    }
+    </style>
+</head>
+<body><header>
+    <nav class="navbar">
+        <ul>
+            <img src="logo.jpg" alt="">
+            <li class="brand"><a href="#">SAMSUNG</a> </li>
+            <li  class="navg"><a href="#">HOME</a></li>
+            <li class="navg"><a href="#">SERVICES</a></li>
+            <li class="navg"><a href="#">ABOUT</a></li>
+            <li class="navg"><a href="#">CONTACT </a></li>
+            <div class="search">
+                <input type="text" name="SEARCH" id="search" placeholder="search this website">
+            </div>
+    </nav>
+</header>
+    <div>
+        <img src="https://images.samsung.com/is/image/samsung/assets/in/home/Eco-Bubble_1440x640_0623.jpg?imwidth=1366" alt="">
+    </div>
+</body>
+</html>
